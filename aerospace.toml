@@ -189,14 +189,18 @@ ctrl-alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'com.apple.Music'
-run = "move-node-to-workspace M"
+run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.podcasts'
-run = "move-node-to-workspace P"
+run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.Notes'
+run = "move-node-to-workspace R"
+
+[[on-window-detected]]
+if.app-id = 'com.apple.reminders'
 run = "move-node-to-workspace R"
 
 [[on-window-detected]]
@@ -204,11 +208,11 @@ if.app-id = 'com.microsoft.Outlook'
 run = "move-node-to-workspace E"
 
 [[on-window-detected]]
-if.app-id = 'com.apple.reminders'
-run = "move-node-to-workspace R"
+if.app-id = 'org.mozilla.com.zen.browser'
+run = "move-node-to-workspace Q"
 
 [[on-window-detected]]
-if.app-id = 'org.mozilla.com.zen.browser'
+if.app-id = 'company.thebrowser.Browser'
 run = "move-node-to-workspace Q"
 
 [[on-window-detected]]
@@ -234,8 +238,4 @@ run = "move-node-to-workspace C"
 [[on-window-detected]]
 if.app-id = 'com.electron.cypress'
 run = "move-node-to-workspace C"
-
-# [[on-window-detected]]
-# if.app-id = 'company.thebrowser.Browser'
-# run = "move-node-to-workspace A"
 
