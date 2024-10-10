@@ -164,7 +164,7 @@ ctrl-alt-cmd-shift-x = 'move-node-to-workspace X'
 ctrl-alt-cmd-shift-y = 'move-node-to-workspace Y'
 ctrl-alt-cmd-shift-z = 'move-node-to-workspace Z'
 
-ctrl-alt-cmd-shift-f = 'fullscreen'
+ctrl-alt-cmd-f = 'fullscreen'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 ctrl-alt-cmd-tab = 'workspace-back-and-forth'
@@ -197,15 +197,15 @@ run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.Notes'
-run = "move-node-to-workspace R"
+run = "move-node-to-workspace E"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.reminders'
-run = "move-node-to-workspace R"
+run = "move-node-to-workspace E"
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.Outlook'
-run = "move-node-to-workspace E"
+run = "move-node-to-workspace R"
 
 [[on-window-detected]]
 if.app-id = 'org.mozilla.com.zen.browser'
