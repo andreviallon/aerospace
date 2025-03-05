@@ -205,6 +205,10 @@ if.app-id = 'com.microsoft.Outlook'
 run = "move-node-to-workspace R"
 
 [[on-window-detected]]
+if.app-id = 'com.apple.Safari'
+run = "move-node-to-workspace Q"
+
+[[on-window-detected]]
 if.app-id = 'org.mozilla.com.zen.browser'
 run = "move-node-to-workspace Q"
 
@@ -215,30 +219,6 @@ run = "move-node-to-workspace Q"
 [[on-window-detected]]
 if.app-id = 'org.mozilla.firefox'
 run = "move-node-to-workspace Q"
-
-[[on-window-detected]]
-if.app-id = 'org.alacritty'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.jetbrains.intellij.ce'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.jetbrains.WebStorm'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.microsoft.VSCode'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.todesktop.230313mzl4w4u92'
-run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id = 'com.amazonaws.acvc.osx'
